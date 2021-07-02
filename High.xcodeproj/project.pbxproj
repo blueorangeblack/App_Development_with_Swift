@@ -28,6 +28,9 @@
 		1211AD6F2658FA0600D78D76 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1211AD6D2658FA0600D78D76 /* Main.storyboard */; };
 		1211AD712658FA0700D78D76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1211AD702658FA0700D78D76 /* Assets.xcassets */; };
 		1211AD742658FA0700D78D76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1211AD722658FA0700D78D76 /* LaunchScreen.storyboard */; };
+		121B924C268E22D300CAE064 /* PhotoInfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121B924B268E22D300CAE064 /* PhotoInfoController.swift */; };
+		121B924E268E22E800CAE064 /* PhotoInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121B924D268E22E800CAE064 /* PhotoInfo.swift */; };
+		121B9250268E234200CAE064 /* URL+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121B924F268E234200CAE064 /* URL+Helpers.swift */; };
 		121D8D1026611DD20079E4A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121D8D0F26611DD20079E4A2 /* AppDelegate.swift */; };
 		121D8D1226611DD20079E4A2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121D8D1126611DD20079E4A2 /* SceneDelegate.swift */; };
 		121D8D1426611DD20079E4A2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121D8D1326611DD20079E4A2 /* ViewController.swift */; };
@@ -40,6 +43,12 @@
 		12550A2B265EB91D009924EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12550A29265EB91D009924EF /* Main.storyboard */; };
 		12550A2D265EB91F009924EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12550A2C265EB91F009924EF /* Assets.xcassets */; };
 		12550A30265EB91F009924EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12550A2E265EB91F009924EF /* LaunchScreen.storyboard */; };
+		1258F8C2268E1A2200968CD0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1258F8C1268E1A2200968CD0 /* AppDelegate.swift */; };
+		1258F8C4268E1A2200968CD0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1258F8C3268E1A2200968CD0 /* SceneDelegate.swift */; };
+		1258F8C6268E1A2200968CD0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1258F8C5268E1A2200968CD0 /* ViewController.swift */; };
+		1258F8C9268E1A2200968CD0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1258F8C7268E1A2200968CD0 /* Main.storyboard */; };
+		1258F8CB268E1A2300968CD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1258F8CA268E1A2300968CD0 /* Assets.xcassets */; };
+		1258F8CE268E1A2300968CD0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1258F8CC268E1A2300968CD0 /* LaunchScreen.storyboard */; };
 		125A5F622659495D00D0685D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125A5F612659495D00D0685D /* AppDelegate.swift */; };
 		125A5F642659495D00D0685D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125A5F632659495D00D0685D /* SceneDelegate.swift */; };
 		125A5F662659495D00D0685D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125A5F652659495D00D0685D /* ViewController.swift */; };
@@ -128,6 +137,9 @@
 		1211AD702658FA0700D78D76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1211AD732658FA0700D78D76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1211AD752658FA0700D78D76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		121B924B268E22D300CAE064 /* PhotoInfoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoInfoController.swift; sourceTree = "<group>"; };
+		121B924D268E22E800CAE064 /* PhotoInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoInfo.swift; sourceTree = "<group>"; };
+		121B924F268E234200CAE064 /* URL+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+Helpers.swift"; sourceTree = "<group>"; };
 		121D8D0D26611DD20079E4A2 /* TabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		121D8D0F26611DD20079E4A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		121D8D1126611DD20079E4A2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -144,6 +156,14 @@
 		12550A2C265EB91F009924EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		12550A2F265EB91F009924EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		12550A31265EB91F009924EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1258F8BF268E1A2200968CD0 /* SpacePhoto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpacePhoto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1258F8C1268E1A2200968CD0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1258F8C3268E1A2200968CD0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1258F8C5268E1A2200968CD0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1258F8C8268E1A2200968CD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1258F8CA268E1A2300968CD0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1258F8CD268E1A2300968CD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1258F8CF268E1A2300968CD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		125A5F5F2659495D00D0685D /* AutoLayoutPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoLayoutPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		125A5F612659495D00D0685D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		125A5F632659495D00D0685D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -256,6 +276,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1258F8BC268E1A2200968CD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		125A5F5C2659495D00D0685D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -349,6 +376,7 @@
 				128B5A99268701E600CD26EC /* ComplexInputScreensHotelManzana */,
 				12A4888A268813BE006182C0 /* ToDoList */,
 				127B604F2689D57E00BFF9E0 /* AppleMusicWireFrame */,
+				1258F8C0268E1A2200968CD0 /* SpacePhoto */,
 				1211AD4B2658F94400D78D76 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -369,6 +397,7 @@
 				128B5A98268701E600CD26EC /* ComplexInputScreensHotelManzana.app */,
 				12A48889268813BE006182C0 /* ToDoList.app */,
 				127B604E2689D57E00BFF9E0 /* AppleMusicWireFrame.app */,
+				1258F8BF268E1A2200968CD0 /* SpacePhoto.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -427,6 +456,23 @@
 				12550A31265EB91F009924EF /* Info.plist */,
 			);
 			path = SegueAndNavigationControllers;
+			sourceTree = "<group>";
+		};
+		1258F8C0268E1A2200968CD0 /* SpacePhoto */ = {
+			isa = PBXGroup;
+			children = (
+				1258F8C1268E1A2200968CD0 /* AppDelegate.swift */,
+				1258F8C3268E1A2200968CD0 /* SceneDelegate.swift */,
+				1258F8C5268E1A2200968CD0 /* ViewController.swift */,
+				121B924B268E22D300CAE064 /* PhotoInfoController.swift */,
+				121B924D268E22E800CAE064 /* PhotoInfo.swift */,
+				121B924F268E234200CAE064 /* URL+Helpers.swift */,
+				1258F8C7268E1A2200968CD0 /* Main.storyboard */,
+				1258F8CA268E1A2300968CD0 /* Assets.xcassets */,
+				1258F8CC268E1A2300968CD0 /* LaunchScreen.storyboard */,
+				1258F8CF268E1A2300968CD0 /* Info.plist */,
+			);
+			path = SpacePhoto;
 			sourceTree = "<group>";
 		};
 		125A5F602659495D00D0685D /* AutoLayoutPractice */ = {
@@ -638,6 +684,23 @@
 			productReference = 12550A21265EB91D009924EF /* SegueAndNavigationControllers.app */;
 			productType = "com.apple.product-type.application";
 		};
+		1258F8BE268E1A2200968CD0 /* SpacePhoto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1258F8D2268E1A2300968CD0 /* Build configuration list for PBXNativeTarget "SpacePhoto" */;
+			buildPhases = (
+				1258F8BB268E1A2200968CD0 /* Sources */,
+				1258F8BC268E1A2200968CD0 /* Frameworks */,
+				1258F8BD268E1A2200968CD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpacePhoto;
+			productName = SpacePhoto;
+			productReference = 1258F8BF268E1A2200968CD0 /* SpacePhoto.app */;
+			productType = "com.apple.product-type.application";
+		};
 		125A5F5E2659495D00D0685D /* AutoLayoutPractice */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 125A5F722659495F00D0685D /* Build configuration list for PBXNativeTarget "AutoLayoutPractice" */;
@@ -798,6 +861,9 @@
 					12550A20265EB91D009924EF = {
 						CreatedOnToolsVersion = 12.5;
 					};
+					1258F8BE268E1A2200968CD0 = {
+						CreatedOnToolsVersion = 12.5;
+					};
 					125A5F5E2659495D00D0685D = {
 						CreatedOnToolsVersion = 12.5;
 					};
@@ -850,6 +916,7 @@
 				128B5A97268701E600CD26EC /* ComplexInputScreensHotelManzana */,
 				12A48888268813BE006182C0 /* ToDoList */,
 				127B604D2689D57E00BFF9E0 /* AppleMusicWireFrame */,
+				1258F8BE268E1A2200968CD0 /* SpacePhoto */,
 			);
 		};
 /* End PBXProject section */
@@ -902,6 +969,16 @@
 				12550A30265EB91F009924EF /* LaunchScreen.storyboard in Resources */,
 				12550A2D265EB91F009924EF /* Assets.xcassets in Resources */,
 				12550A2B265EB91D009924EF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1258F8BD268E1A2200968CD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1258F8CE268E1A2300968CD0 /* LaunchScreen.storyboard in Resources */,
+				1258F8CB268E1A2300968CD0 /* Assets.xcassets in Resources */,
+				1258F8C9268E1A2200968CD0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1039,6 +1116,19 @@
 				12550A28265EB91D009924EF /* ViewController.swift in Sources */,
 				12550A24265EB91D009924EF /* AppDelegate.swift in Sources */,
 				12550A26265EB91D009924EF /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1258F8BB268E1A2200968CD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1258F8C6268E1A2200968CD0 /* ViewController.swift in Sources */,
+				121B9250268E234200CAE064 /* URL+Helpers.swift in Sources */,
+				1258F8C2268E1A2200968CD0 /* AppDelegate.swift in Sources */,
+				121B924C268E22D300CAE064 /* PhotoInfoController.swift in Sources */,
+				1258F8C4268E1A2200968CD0 /* SceneDelegate.swift in Sources */,
+				121B924E268E22E800CAE064 /* PhotoInfo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1210,6 +1300,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				12550A2F265EB91F009924EF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		1258F8C7268E1A2200968CD0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1258F8C8268E1A2200968CD0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1258F8CC268E1A2300968CD0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1258F8CD268E1A2300968CD0 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -1651,6 +1757,44 @@
 			};
 			name = Release;
 		};
+		1258F8D0268E1A2300968CD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 739U498273;
+				INFOPLIST_FILE = SpacePhoto/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.min.SpacePhoto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1258F8D1268E1A2300968CD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 739U498273;
+				INFOPLIST_FILE = SpacePhoto/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.min.SpacePhoto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		125A5F702659495F00D0685D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -2006,6 +2150,15 @@
 			buildConfigurations = (
 				12550A32265EB91F009924EF /* Debug */,
 				12550A33265EB91F009924EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1258F8D2268E1A2300968CD0 /* Build configuration list for PBXNativeTarget "SpacePhoto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1258F8D0268E1A2300968CD0 /* Debug */,
+				1258F8D1268E1A2300968CD0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
